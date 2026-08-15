@@ -361,3 +361,9 @@ MigrationBackup/
 
 # Fody - auto-generated XML schema
 FodyWeavers.xsd
+
+# trad-rpg-dice-ranges skill package: the vendored build and the packaged
+# .skill archive are regenerated from source by republish-skill.sh - only the
+# skill's own source (SKILL.md, package_skill.py) is checked in.
+skill/trad-rpg-dice-ranges/scripts/dice-ranges/
+skill/*.skill

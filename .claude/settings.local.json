@@ -26,7 +26,18 @@
       "Bash(./TableDieRangeCalculatorTests.exe --help)",
       "Bash(./TableDieRangeCalculatorTests.exe -method \"*Die_ImplicitlyConvertsToSingleDieDice\")",
       "Bash(dotnet bin/Debug/net8.0/TableDieRangeCalculator.dll)",
-      "Bash(python -c ' *)"
+      "Bash(python -c ' *)",
+      "Bash(chmod +x republish-skill.sh)",
+      "Bash(bash republish-skill.sh)",
+      "Bash(gh auth *)",
+      "Bash(where gh *)",
+      "Read(//c/Program Files/**)",
+      "Read(//c/Program Files \\\\\\(x86\\\\\\)/**)",
+      "PowerShell(winget --version 2>&1)",
+      "PowerShell(Get-Command winget -ErrorAction SilentlyContinue)",
+      "PowerShell(winget install --id GitHub.cli --silent --accept-package-agreements --accept-source-agreements 2>&1)",
+      "Bash(git checkout *)",
+      "Bash(git add *)"
     ]
   }
 }
