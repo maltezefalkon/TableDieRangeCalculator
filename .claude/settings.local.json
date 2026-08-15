@@ -1,0 +1,32 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(dotnet run *)",
+      "Bash(sort -k6,7)",
+      "Bash(dotnet build *)",
+      "Bash(echo \"exit code: $?\")",
+      "Read(//tmp/**)",
+      "Bash(awk ' *)",
+      "Bash(echo \"exit: $?\")",
+      "Bash(ls \"C:/Users/dan/source/repos/TableDieRangeCalculatorTests\" 2>&1)",
+      "Bash(dotnet test *)",
+      "Bash(./TableDieRangeCalculatorTests.exe)",
+      "Bash(dotnet bin/Release/net8.0/TableDieRangeCalculator.dll)",
+      "Bash(echo \"EXIT CODE: $?\")",
+      "Bash(echo \"---exit: $?---\")",
+      "Bash(dotnet publish *)",
+      "Bash(dotnet publish/TableDieRangeCalculator.dll)",
+      "Read(//c/Users/dan/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/870492e9-40ce-4fb1-a5d9-dbe821373df3/e331f648-cf9d-4e34-a582-6bf7f2a9220d/skills/skill-creator/**)",
+      "Read(//c/Users/dan/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/870492e9-40ce-4fb1-a5d9-dbe821373df3/e331f648-cf9d-4e34-a582-6bf7f2a9220d/skills/skill-creator/scripts/**)",
+      "Bash(python -m scripts.quick_validate C:/Users/dan/AppData/Local/Temp/claude/C--Users-dan-source-repos-TableDieRangeCalculator/8645c368-b670-4814-8473-46c39e99660d/scratchpad/trad-rpg-dice-ranges)",
+      "Bash(python -m scripts.package_skill C:/Users/dan/AppData/Local/Temp/claude/C--Users-dan-source-repos-TableDieRangeCalculator/8645c368-b670-4814-8473-46c39e99660d/scratchpad/trad-rpg-dice-ranges)",
+      "Bash(python -m pip install --quiet pyyaml)",
+      "Bash(PYTHONIOENCODING=utf-8 python -m scripts.package_skill C:/Users/dan/AppData/Local/Temp/claude/C--Users-dan-source-repos-TableDieRangeCalculator/8645c368-b670-4814-8473-46c39e99660d/scratchpad/trad-rpg-dice-ranges)",
+      "Bash(SC_DIR=\"C:/Users/dan/AppData/Roaming/Claude/local-agent-mode-sessions/skills-plugin/870492e9-40ce-4fb1-a5d9-dbe821373df3/e331f648-cf9d-4e34-a582-6bf7f2a9220d/skills/skill-creator\" *)",
+      "Bash(./TableDieRangeCalculatorTests.exe --help)",
+      "Bash(./TableDieRangeCalculatorTests.exe -method \"*Die_ImplicitlyConvertsToSingleDieDice\")",
+      "Bash(dotnet bin/Debug/net8.0/TableDieRangeCalculator.dll)",
+      "Bash(python -c ' *)"
+    ]
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "TableDieRangeCalculator": {
+      "commandName": "Project",
+      "commandLineArgs": "\"C:\\Users\\dan\\OneDrive\\Documents\\Claude\\TempleTableData.json\""
+    }
+  }
+}

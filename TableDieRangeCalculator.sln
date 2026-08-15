@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36623.8
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableDieRangeCalculator", "TableDieRangeCalculator.csproj", "{CFE8238B-864C-4B97-8B13-03EDB2452A4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TableDieRangeCalculatorTests", "..\TableDieRangeCalculatorTests\TableDieRangeCalculatorTests.csproj", "{3BDA6E58-A343-4591-B207-CBF0116A7988}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CFE8238B-864C-4B97-8B13-03EDB2452A4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CFE8238B-864C-4B97-8B13-03EDB2452A4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CFE8238B-864C-4B97-8B13-03EDB2452A4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CFE8238B-864C-4B97-8B13-03EDB2452A4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3BDA6E58-A343-4591-B207-CBF0116A7988}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3BDA6E58-A343-4591-B207-CBF0116A7988}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3BDA6E58-A343-4591-B207-CBF0116A7988}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3BDA6E58-A343-4591-B207-CBF0116A7988}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7668E7B3-5836-4D50-A802-FFE926080BF1}
+	EndGlobalSection
+EndGlobal
