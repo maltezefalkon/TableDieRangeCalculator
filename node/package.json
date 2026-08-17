@@ -1,0 +1,20 @@
+{
+  "name": "table-die-range-calculator",
+  "version": "1.0.0",
+  "description": "Computes accurate, contiguous die-roll ranges for weighted random-table entries against any dice notation.",
+  "license": "MIT",
+  "main": "src/index.js",
+  "bin": {
+    "dice-ranges": "bin/dice-ranges.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/"
+  },
+  "files": [
+    "bin/",
+    "src/"
+  ]
+}
