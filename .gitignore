@@ -367,3 +367,6 @@ FodyWeavers.xsd
 # skill's own source (SKILL.md, package_skill.py) is checked in.
 skill/trad-rpg-dice-ranges/scripts/dice-ranges/
 skill/*.skill
+# The Node port's CLI entry point. npm convention puts it in bin/, which the
+# Visual Studio rules above exclude as a build output - it is source here.
+!node/bin/
